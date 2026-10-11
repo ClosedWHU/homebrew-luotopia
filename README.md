@@ -14,11 +14,15 @@ brew upgrade luotopia   # 升级
 
 ## macOS
 
-Release 携带 DMG 后，`Casks/luotopia.rb` 会自动出现：
+`Casks/luotopia.rb` 随携带 DMG 的 Release 自动发布：
 
 ```sh
+brew tap ClosedWHU/luotopia
 brew install --cask luotopia
+brew upgrade --cask luotopia   # 升级
 ```
+
+**必须带 `--cask`**：tap 里的 formula 与 cask 同名，`brew install luotopia` 会先命中仅限 Linux 的 formula 并报错。
 
 未签名构建：首次打开请右键 Luotopia.app → 打开，或 `xattr -cr /Applications/Luotopia.app`（仅对官方来源的 DMG 这样做）。
 
