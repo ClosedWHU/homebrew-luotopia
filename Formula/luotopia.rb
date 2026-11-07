@@ -2,7 +2,7 @@ class Luotopia < Formula
   desc "Luotopia campus client for Wuhan University"
   homepage "https://www.whu.sb"
   license "MIT"
-  version "1.3.0.19"
+  version "1.2.1.18"
 
   depends_on :linux
 
@@ -15,12 +15,12 @@ class Luotopia < Formula
     depends_on "xz"
 
     on_intel do
-      url "https://github.com/ClosedWHU/Luotopia/releases/download/v1.3.0+19/luotopia-1.3.0-19-linux-x64.tar.gz"
-      sha256 "60b2f3fdc252ebf8ef13402036e99fdee0b520e75e76190be71eeabd648373e1"
+      url "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.1+18/luotopia-1.2.1-18-linux-x64.tar.gz"
+      sha256 "c2bbe1ad273f22b8392da418e36d486bf81b431b615e68f42fbf8b20c415d0b2"
     end
     on_arm do
-      url "https://github.com/ClosedWHU/Luotopia/releases/download/v1.3.0+19/luotopia-1.3.0-19-linux-arm64.tar.gz"
-      sha256 "9241803723500b7a6baadc997d709b25fe70713f93a846ebee48f43a2e7ba4e0"
+      url "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.1+18/luotopia-1.2.1-18-linux-arm64.tar.gz"
+      sha256 "fa036884b4bf62985acf63d9e6c40f1510c642ed7787bf6dac4b4c0193b7e450"
     end
   end
 
