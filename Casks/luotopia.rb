@@ -1,8 +1,8 @@
 cask "luotopia" do
-  version "1.2.0.17"
-  sha256 "5f9519bb3df4d34588ba88a463f76679a2871b8df081393236901c4ae22a63ce"
+  version "1.3.0.19"
+  sha256 "fd93a502dbbb333e87a4e501c66af88be1da52993bc9114362bbe647deaf9ed5"
 
-  url "https://github.com/ClosedWHU/Luotopia/releases/download/v1.2.0+17/luotopia-1.2.0-17-macos-arm64.dmg"
+  url "https://github.com/ClosedWHU/Luotopia/releases/download/v1.3.0+19/luotopia-1.3.0-19-macos-arm64.dmg"
   name "Luotopia"
   desc "Luotopia campus client for Wuhan University"
   homepage "https://www.whu.sb"
